@@ -1,3 +1,5 @@
+
+
 def find_max_value(array)
   max = nil 
   array.length.times do |i|
@@ -8,6 +10,3 @@ def find_max_value(array)
   max
 end
 
-nums = [1, 4, 6, 2, 3]
-
-puts find_max_value(nums)
