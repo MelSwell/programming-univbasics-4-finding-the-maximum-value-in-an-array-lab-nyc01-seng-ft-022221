@@ -1,13 +1,9 @@
-require 'pry'
-
 def find_max_value(array)
-  max = nil 
-  array.length.times do |i|
-    if array[i] > max do
-      binding.pry
-      max = array[i]
-    end
+  counter = 0
+  max = nil
+  while counter < array.length do
+    
+    counter += 1
   end
-  max
 end
 
