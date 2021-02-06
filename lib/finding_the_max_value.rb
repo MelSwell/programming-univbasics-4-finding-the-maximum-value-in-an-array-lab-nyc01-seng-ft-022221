@@ -1,9 +1,11 @@
 def find_max_value(array)
- max = 0 
-  array.length.times do |i|
-    if array[i] > max do
-      max = array[i]
+  counter = 0 
+  max = 0 
+  while counter < array.length do
+    if array[counter] > max do
+      max = array[counter]
     end
+    counter += 1
   end
   max
 end
